@@ -1,24 +1,38 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Hi 👋, I'm Arush Shrivastava
 
-Things you may want to cover:
+This repository showcases my portfolio, where I demonstrate my skills, projects, and achievements. It serves as a comprehensive overview of my expertise and experiences in the field.
 
-* Ruby version
+## Table of Contents
+    About
+    Technologies
+    Projects
+    Skills
+    Contact
 
-* System dependencies
+## About
 
-* Configuration
+In this portfolio project, I aim to present my professional journey, highlighting my background, education, and career milestones. It provides insights into my passion for technology and showcases my commitment to continuous learning and growth.
 
-* Database creation
+## Technologies
 
-* Database initialization
+The portfolio project utilizes a range of technologies and tools to create an immersive and engaging experience. Some of the key technologies employed include HTML, CSS, JavaScript, and rails.
 
-* How to run the test suite
+## Projects
+Within this repository, you will find a collection of my notable projects. Each project demonstrates my skills and expertise in various areas, including web development, app development and software engineering. Feel free to explore and interact with the projects to get a better understanding of my capabilities.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Skills
 
-* Deployment instructions
+    Web Development (HTML, CSS, JavaScript)
+    Programming Languages (Python, Java, C++, Ruby, Kotlin, Flutter)
+    Database Management (SQL, MySQL, PostgreSQL)
+    Version Control (Git, GitHub)
 
-* ...
+## Contact
+I would be thrilled to connect with you! Feel free to reach out to me via email or social media platforms. Let's discuss exciting opportunities, collaborations, or simply have a chat about technology and innovation.
+
+    Email: shri.arush03@gmail.com
+    LinkedIn: arush-shri
+
+Thank you for visiting my portfolio project! I hope you enjoy exploring my work and getting to know me better.
+
