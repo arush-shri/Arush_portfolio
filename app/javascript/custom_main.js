@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const toggleButton = document.getElementById("navabr_toggle");
+    const toggleButton = document.getElementById("navbar_toggle_button");
     const navbar = document.getElementById("navbar");
   
   const toggle_nav = () => {
     navbar.classList.toggle("hidden");
-    console.log("click");
   };
   
   toggleButton.addEventListener("click", toggle_nav);
@@ -14,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       if (viewportWidth > 1050) {
         navbar.classList.add("hidden");
       }
-      console.log("resize")
     };
   });
   
