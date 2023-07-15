@@ -1,33 +1,31 @@
+<%= javascript_include_tag "custom_main" %>
 <body class="bg-slate-900">
-  <%= javascript_include_tag "custom_main" %>
-  <nav class="mx-auto mt-4 h-18 block w-full max-w-screen-2xl rounded-xl border flex border-white/80 bg-white bg-opacity-65 py-2 px-4 text-white shadow-md flex-wrap backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4 items-center justify-between ">
+  <nav class="mx-auto h-18 block border flex border-white/80 bg-white bg-opacity-65 text-white shadow-md flex-wrap backdrop-blur-2xl backdrop-saturate-200 px-8 py-4 items-center justify-between">
     <div class="inline-block">
-          <a class="font-sans text-lg font-normal text-black" href="#">Material Tailwind</a>
+      <a class="font-sans text-lg text-black" href="#">Material Tailwind</a>
     </div>
-    <div class="block lg:hidden">
-      <button id="navbar_toggle_button" class="flex flex-col px-3 py-2 border rounded border-gray-800 transition-colors duration-400 hover:bg-gray-800 group">
-        <div class="w-6 h-1 bg-black rounded-full transition-colors duration-400 group-hover:bg-white"></div>
-        <div class="w-6 h-1 bg-black my-1 rounded-full transition-colors duration-400 group-hover:bg-white"></div>
-        <div class="w-6 h-1 bg-black rounded-full transition-colors duration-400 group-hover:bg-white"></div>
-      </button>
-    </div>
-    <div class=" container pr-40 mx-auto flex items-center justify-between w-full lg:w-auto block lg:inline-block hidden" id="navbar">
-      <div class="lg:flex-grow text-2xl text-center space-x-2">
-        <a class="hidden"></a>
-        <a class="flex items-center text-lg text-black lg:inline-block px-2" href="#">
+    <div class="flex flex-col lg:inline-block hidden" id="navbar">
+        <a class="flex text-lg font-sans text-black lg:inline-block px-8 md:px-6 lg:px-8 xl:px-10 2xl:px-12" href="#">
           Projects
         </a>
-        <a class="flex items-center text-lg text-black lg:inline-block px-2" href="#">
+        <a class="flex text-lg font-sans text-black lg:inline-block lg:px-8 xl:px-10 2xl:px-12" href="#">
           Certificates
         </a>
-        <a class="flex items-center text-lg text-black lg:inline-block px-2" href="#">
+        <a class="flex text-lg font-sans text-black lg:inline-block lg:px-8 xl:px-10 2xl:px-12" href="#">
           Skills
         </a>
-        <a class="flex items-center text-lg text-black lg:inline-block px-2" href="#">
+        <a class="flex text-lg font-sans text-black lg:inline-block lg:px-8 xl:px-10 2xl:px-12" href="#">
           Contact
         </a>
-        
       </div>
-    </div>
+      <label for="themeSwitcherTwo" class="hidden lg:relative lg:inline-flex lg:cursor-pointer lg:select-none lg:items-center">
+          <input type="checkbox" name="themeSwitcherTwo" id="themeSwitcherTwo" class="sr-only">
+          <span class="label flex items-center text-lg font-medium text-black">Light</span>
+          <span class="slider mx-4 flex h-6 w-[45px] items-center rounded-full bg-[#CCCCCE] p-1 duration-200">
+            <span class="dot h-4 w-5 rounded-full bg-white duration-200"></span>
+          </span>
+          <span class="label flex items-center text-lg font-medium font-sans text-black">Dark</span>
+      </label>
+      
   </nav>
 </body>
