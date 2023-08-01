@@ -18,14 +18,33 @@
           Contact
         </a>
       </div>
-      <label for="themeSwitcherTwo" class="hidden lg:relative lg:inline-flex lg:cursor-pointer lg:select-none lg:items-center">
+      <label for="themeSwitcherTwo" class="hidden lg:relative lg:inline-flex lg:cursor-pointer lg:select-none lg:items-center" id="navbar_toggle_button">
           <input type="checkbox" name="themeSwitcherTwo" id="themeSwitcherTwo" class="sr-only">
           <span class="label flex items-center text-lg font-medium text-black">Light</span>
-          <span class="slider mx-4 flex h-6 w-[45px] items-center rounded-full bg-[#CCCCCE] p-1 duration-200">
+          <span class="slider mx-4 flex h-6 w-[48px] items-center rounded-full bg-[#CCCCCE] p-1 duration-200">
             <span class="dot h-4 w-5 rounded-full bg-white duration-200"></span>
           </span>
           <span class="label flex items-center text-lg font-medium font-sans text-black">Dark</span>
       </label>
-      
+
+<%# <script>
+  const themeSwitcherTwo = document.getElementById('themeSwitcherTwo');
+  const slider = document.querySelector('.slider');
+  const dot = document.querySelector('.dot');
+  
+
+  themeSwitcherTwo.addEventListener('change', function() {
+    if (this.checked) {
+      // Switch to Dark theme
+      slider.style.backgroundColor = '#444';
+      dot.style.transform = 'translateX(100%)';
+    } else {
+      // Switch to Light theme
+      slider.style.backgroundColor = '#CCCCCE';
+      dot.style.transform = 'translateX(0)';
+    }
+  });
+</script> %>
+
   </nav>
 </body>
